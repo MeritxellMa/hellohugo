@@ -10,7 +10,7 @@
                 <h3 class="text-uppercase">{{ i18n "seeMoreTitle" }}</h3>
                 <p class="lead">{{ i18n "seeMoreSubtitle" }}</p>
                 <p class="text-center">
-                    <a href="{{ .Site.Params.see_more.link_url }}" class="btn btn-template-transparent-black btn-lg">{{ i18n "seeMoreTextLink" }}</a>
+                    <a href="{{ .Site.Params.see_more.link_url }}" class="btn btn-template-transparent-black btn-lg">{{ .Site.Params.see_more.link_text }}</a>
                 </p>
             </div>
 

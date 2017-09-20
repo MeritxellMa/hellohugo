@@ -123,7 +123,7 @@ DefaultContentLanguage = "en"
     	about_us = "<p>La documentación es el código</p>"
 
 	[[languages.es.menu.main]]
-	    url = "/es/"
+	    url = "/"
 	    name = "Home"
 	    weight = 1
 	[[languages.es.menu.main]]

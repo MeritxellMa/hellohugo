@@ -20,7 +20,7 @@
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">
-                                <p>{{ i18n .text | markdownify }}</p>
+                                <p>{{ .text | markdownify }}</p>
                             </div>
                             <div class="bottom">
                                 <div class="icon"><i class="fa fa-quote-left"></i>
@@ -28,7 +28,7 @@
                                 <div class="name-picture">
                                     <img class="" alt="" src="{{ .avatar | absURL }}">
                                     <h5>{{ .name }}</h5>
-                                    <p>{{ i18n .position }}</p>
+                                    <p>{{ .position }}</p>
                                 </div>
                             </div>
                         </div>

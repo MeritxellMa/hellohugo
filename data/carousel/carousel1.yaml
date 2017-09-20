@@ -1,4 +1,4 @@
 weight: 1
-title: "Pàgina 1"
-description: "<p>Aquí es posa text<br>editable amb html</p>"
+title: "carouselTitle1"
+description: "carouselDescription1"
 image: "img/carousel/acorn.png"

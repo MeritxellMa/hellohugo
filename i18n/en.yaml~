@@ -64,3 +64,8 @@
 - id: position1
   translation: "EN - Coneptum S.L."
 
+- id: theme
+  translation: "theme"
+
+- id: starting
+  translation: "starting"

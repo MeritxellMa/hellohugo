@@ -1,5 +1,5 @@
 +++
-title = "Això és un post"
+title = "This is a post"
 date = "2015-06-24T13:50:46+02:00"
 tags = ["theme"]
 categories = ["starting"]
