@@ -1,17 +1,17 @@
 {{ if isset .Site.Params "see_more" }}
 {{ if .Site.Params.see_more.enable }}
 <section class="bar background-image-fixed-2 no-mb color-white text-center">
-    <div class="dark-mask"></div>
+    <div></div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="icon icon-lg"><i class="{{ .Site.Params.see_more.icon }}"></i>
+                <!--<div class="icon icon-lg"><i class="{{ .Site.Params.see_more.icon }}"></i>-->
                 </div>
-                <h3 class="text-uppercase">{{ i18n "seeMoreTitle" }}</h3>
+                <h3>{{ i18n "seeMoreTitle" }}</h3>
                 <p class="lead">{{ i18n "seeMoreSubtitle" }}</p>
-                <p class="text-center">
+                <!--<p class="text-center">
                     <a href="{{ .Site.Params.see_more.link_url }}" class="btn btn-template-transparent-black btn-lg">{{ i18n "seeMoreTextLink" }}</a>
-                </p>
+                </p>-->
             </div>
 
         </div>

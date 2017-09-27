@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Title in english</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on Title in english</description>
+    <title>Categories on Coneptum S.L.</title>
+    <link>https://meritxellma.github.io/categories/</link>
+    <description>Recent content in Categories on Coneptum S.L.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright</copyright>
+    <copyright>Copyright english</copyright>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://meritxellma.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lorem</title>
-      <link>http://example.org/categories/lorem/</link>
+      <link>https://meritxellma.github.io/categories/lorem/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://example.org/categories/lorem/</guid>
+      <guid>https://meritxellma.github.io/categories/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>http://example.org/categories/programming/</link>
+      <link>https://meritxellma.github.io/categories/programming/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>http://example.org/categories/programming/</guid>
+      <guid>https://meritxellma.github.io/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pseudo</title>
-      <link>http://example.org/categories/pseudo/</link>
+      <link>https://meritxellma.github.io/categories/pseudo/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>http://example.org/categories/pseudo/</guid>
+      <guid>https://meritxellma.github.io/categories/pseudo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Starting</title>
-      <link>http://example.org/categories/starting/</link>
+      <link>https://meritxellma.github.io/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://example.org/categories/starting/</guid>
+      <guid>https://meritxellma.github.io/categories/starting/</guid>
       <description></description>
     </item>
     

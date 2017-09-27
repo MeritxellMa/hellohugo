@@ -24,7 +24,17 @@
 
                     <div class="col-md-9" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
+                        <p class="text-muted text-uppercase mb-small text-right">
+				{{ if .Params.author }}
+					{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | 
+				{{ end }}
+				{{ if (eq .Site.Language.Lang "es") }}
+					{{ .Date.Day }} de {{ index $.Site.Data.months.meses (printf "%d" .Date.Month) }} {{ .Date.Year }}
+			    	{{ else if (eq .Site.Language.Lang "ca") }}
+					{{ .Date.Day }} {{ index $.Site.Data.months.mesos (printf "%d" .Date.Month) }} {{ .Date.Year }}
+			    	{{ else }}
+                            		{{ .Date.Format .Site.Params.date_format }}
+			    	{{ end }}</p>
 
                         <div id="post-content">
                           {{ .Content }}

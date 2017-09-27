@@ -1,19 +1,15 @@
-baseURL = "http://example.org/"
+baseURL = "https://meritxellma.github.io/"
 theme = "universal"    
 DefaultContentLanguage = "en"
 
 [params]
-
-    author = "Meritxell Martí"
+    author = "Coneptum S.L."
     logo = "img/logo.png"
-    style = "green"
 
     defaultKeywords = []
     defaultDescription = ""
 
     address = """<p>C/Sant Agustí, 5<br>Barcelona<br>080..<br><br></p>"""
-    latitude = "41.3984171"
-    longitude = "2.1607018"
 
     email = "my.email@my.domain"
 
@@ -34,7 +30,6 @@ DefaultContentLanguage = "en"
     tags = true
     search = true
 
-#defined in data/carousel
 [params.carousel]
     enable = true
 
@@ -42,14 +37,12 @@ DefaultContentLanguage = "en"
 [params.features]
     enable = true
 
-[params.see_more]
+[params.tecnologies]
     enable = true
-    icon = "fa fa-smile-o"
-    link_url = "http://your-site.com/more"
 
 #defined in data/testimonials
 [params.testimonials]
-    enable = true
+    enable = false
 
 #defined in data/clients
 [params.clients]
@@ -60,11 +53,15 @@ DefaultContentLanguage = "en"
 
 [languages]
     [languages.en]
-	title = "Title in english"
+	title = "Coneptum S.L."
 	weight = 1
 	languagename = "English"
     	copyright = "Copyright english"
     	about_us = "<p>Code are docs</p>"
+
+	latitude = "41.3984171"
+	longitude = "2.1607018"
+
 
 	[[languages.en.menu.main]]
 	    url = "/"
@@ -80,19 +77,26 @@ DefaultContentLanguage = "en"
     	    weight = 3
 	[[languages.en.menu.main]]
     	    name = "Language"
-    	    url  = "/"
     	    weight = 4
 	    identifier = "lang"
 	[[languages.en.menu.main]]
 	    name = "English"
 	    parent = "lang"
 	    identifier = "en"
-	    url = "/en"
+	    url = "/"
+	    weight = 1
 	[[languages.en.menu.main]]
 	    name = "Español"
 	    parent = "lang"
 	    identifier = "es"
 	    url = "/es"
+	    weight = 2
+	[[languages.en.menu.main]]
+	    name = "Català"
+	    parent = "lang"
+	    identifier = "ca"
+	    url = "/ca"
+	    weight = 3
 
 	[[languages.en.menu.topbar]]
 	    weight = 1
@@ -116,14 +120,17 @@ DefaultContentLanguage = "en"
 	    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
     [languages.es]
-	title = "Título en español"
+	title = "Coneptum S.L."
 	weight = 2
 	languagename = "Español"
     	copyright = "Copyright español"
     	about_us = "<p>La documentación es el código</p>"
 
+	latitude = "41.3984171"
+	longitude = "2.1607018"
+
 	[[languages.es.menu.main]]
-	    url = "/"
+	    url = "/es/"
 	    name = "Home"
 	    weight = 1
 	[[languages.es.menu.main]]
@@ -143,11 +150,19 @@ DefaultContentLanguage = "en"
 	    parent = "lang"
 	    identifier = "en"
 	    url = "/"
+	    weight = 1
 	[[languages.es.menu.main]]
 	    name = "Español"
 	    parent = "lang"
 	    identifier = "es"
 	    url = "/es"
+	    weight = 2
+	[[languages.es.menu.main]]
+	    name = "Català"
+	    parent = "lang"
+	    identifier = "ca"
+	    url = "/ca"
+	    weight = 3
 
 	[[languages.es.menu.topbar]]
 	    weight = 1
@@ -165,6 +180,71 @@ DefaultContentLanguage = "en"
 	    url = "http://twitter.com"
 	    pre = "<i class='fa fa-2x fa-twitter'></i>"
 	[[languages.es.menu.topbar]]
+	    weight = 4
+	    name = "Email"
+	    url = "mailto:your@email.com"
+	    pre = "<i class='fa fa-2x fa-envelope'></i>"
+    [languages.ca]
+	title = "Coneptum S.L."
+	weight = 3
+	languagename = "Català"
+    	copyright = "Copyright català"
+    	about_us = "<p>La documentació és el codi</p>"
+
+	latitude = "41.3984171"
+	longitude = "2.1607018"
+
+	[[languages.ca.menu.main]]
+	    url = "/ca/"
+	    name = "Home"
+	    weight = 1
+	[[languages.ca.menu.main]]
+	    url = "/ca/blog/"
+	    name = "Blog"
+	    weight = 2
+	[[languages.ca.menu.main]]
+    	    name = "Contacta"
+    	    url  = "/ca/contact/"
+    	    weight = 3
+	[[languages.ca.menu.main]]
+    	    name = "Idioma"
+    	    weight = 4
+	    identifier = "lang"
+	[[languages.ca.menu.main]]
+	    name = "English"
+	    parent = "lang"
+	    identifier = "en"
+	    url = "/"
+	    weight = 1
+	[[languages.ca.menu.main]]
+	    name = "Español"
+	    parent = "lang"
+	    identifier = "es"
+	    url = "/es"
+	    weight = 2
+	[[languages.ca.menu.main]]
+	    name = "Català"
+	    parent = "lang"
+	    identifier = "ca"
+	    url = "/ca"
+	    weight = 3
+
+	[[languages.ca.menu.topbar]]
+	    weight = 1
+	    name = "GitHub"
+	    url = "https://github.com"
+	    pre = "<i class='fa fa-2x fa-github'></i>"
+	[[languages.ca.menu.topbar]]
+	    weight = 2
+	    name = "Facebook"
+	    url = "http://facebook.com"
+	    pre = "<i class='fa fa-2x fa-facebook'></i>"
+	[[languages.ca.menu.topbar]]
+	    weight = 3
+	    name = "Twitter"
+	    url = "http://twitter.com"
+	    pre = "<i class='fa fa-2x fa-twitter'></i>"
+	[[languages.ca.menu.topbar]]
 	    weight = 4
 	    name = "Email"
 	    url = "mailto:your@email.com"

@@ -1,11 +1,50 @@
-- id: seeMoreTitle
-  translation: "See more title"
-
-- id: seeMoreSubtitle
-  translation: "See more subtitle"
-
 - id: topbarText
   translation: "Testing hugo"
+
+- id: carouselTitle1
+  translation: "Your AI tech agency_"
+
+- id: featureTitle1
+  translation: "Full stack development"
+
+- id: featureDesc1
+  translation: "High performance backend solutions. Rich client apps for iOS, Android and Web"
+
+- id: featureTitle2
+  translation: "AI & Machine learning"
+
+- id: featureDesc2
+  translation: "Computer Vision. Natural Language Processing. Automatic decision systems making our customers business processes highly scalable."
+
+- id: featureTitle3
+  translation: "Big data & Analytics"
+
+- id: featureDesc3
+  translation: "Design and development of rich interactive dashboards to give our customers new insights from the large amounts of data that they are generating. Customization of HPC software to allow our customers to process petabytes of data"
+
+- id: tecnologiesTitle
+  translation: "Tecnologies"
+
+- id: tecnologiesSubtitle
+  translation: " "
+
+- id: recentPostsTitle
+  translation: "From our blog"
+
+- id: recentPostsSubtitle
+  translation: " "
+
+- id: clientsTitle
+  translation: "Our clients"
+
+- id: clientsSubtitle
+  translation: " "
+
+- id: seeMoreTitle
+  translation: "Your AI tech agency_"
+
+- id: seeMoreSubtitle
+  translation: " "
 
 - id: seeMoreTextLink
   translation: "See more"
@@ -15,42 +54,6 @@
 
 - id: testimonialsSubtitle
   translation: "Some opinions here:"
-
-- id: clientsTitle
-  translation: "Clients"
-
-- id: clientsSubtitle
-  translation: "Our clients:"
-
-- id: recentPostsTitle
-  translation: "Blog"
-
-- id: recentPostsSubtitle
-  translation: "Last blog entries:"
-
-- id: carouselTitle1
-  translation: "Page 1"
-
-- id: carouselDescription1
-  translation: "<p>Text goes here<br>editable with html</p>"
-
-- id: carouselTitle2
-  translation: "Page 2"
-
-- id: carouselDescription2
-  translation: "Text without html"
-
-- id: featureTitle1
-  translation: "Feature 1"
-
-- id: featureDesc1
-  translation: "Description"
-
-- id: featureTitle2
-  translation: "Feature 2"
-
-- id: featureDesc2
-  translation: "EN - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa orci. Sed quis metus eleifend, venenatis dolor sed, volutpat purus."
 
 - id: opinion1
   translation: "EN - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa orci. Sed quis metus eleifend, venenatis dolor sed, volutpat purus."
@@ -64,8 +67,6 @@
 - id: position1
   translation: "EN - Coneptum S.L."
 
-- id: theme
-  translation: "theme"
+- id: 9
+  translation: "SEPTEMBER"
 
-- id: starting
-  translation: "starting"

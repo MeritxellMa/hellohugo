@@ -8,13 +8,16 @@
 		<div class="col-md-12">
             <div class="row">
 		{{ end }}
-				<div class="col-md-4 col-md-offset-1">
+				<div class="col-md-5">
                     <div class="box-simple">
-                        <div class="icon">
+                        <!--<div class="icon">
                             <i class="{{ .icon }}"></i>
-                        </div>
-                        <h3>{{ $element.name }}</h3>
-                        <p>{{ $element.description | markdownify }}</p>
+                        </div>-->
+			<div class="image-icon">
+				<img class="img-responsive" src="{{ .icon }}" alt="">
+			</div>
+                        <h3>{{ i18n $element.name }}</h3>
+                        <p>{{ i18n $element.description | markdownify }}</p>
                     </div>
                 </div>
 		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features) 1 )) }}

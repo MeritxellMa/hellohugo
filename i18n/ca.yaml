@@ -1,0 +1,32 @@
+- id: topbarText
+  translation: "Provant hugo"
+
+- id: carouselTitle1
+  translation: "Your AI tech agency_"
+
+- id: featureTitle1
+  translation: "Full stack development"
+
+- id: featureDesc1
+  translation: "High performance backend solutions. Rich client apps for iOS, Android and Web"
+
+- id: featureTitle2
+  translation: "AI & Machine learning"
+
+- id: featureDesc2
+  translation: "Computer Vision. Natural Language Processing. Automatic decision systems making our customers business processes highly scalable."
+
+- id: featureTitle3
+  translation: "Big data & Analytics"
+
+- id: featureDesc3
+  translation: "Design and development of rich interactive dashboards to give our customers new insights from the large amounts of data that they are generating. Customization of HPC software to allow our customers to process petabytes of data"
+
+- id: tecnologiesTitle
+  translation: "Tecnologies"
+
+- id: recentPostsTitle
+  translation: "Del nostre blog"
+
+- id: clientsTitle
+  translation: "Els nostres clients"

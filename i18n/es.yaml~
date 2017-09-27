@@ -1,72 +1,36 @@
-- id: seeMoreTitle
-  translation: "Título de ver más"
-
-- id: seeMoreSubtitle
-  translation: "Subtítulo de ver más"
-
 - id: topbarText
   translation: "Probando hugo"
 
-- id: seeMoreTextLink
-  translation: "Ver más"
-
-- id: testimonialsTitle
-  translation: "Opiniones"
-
-- id: testimonialsSubtitle
-  translation: "Algunas opiniones aquí:"
-
-- id: clientsTitle
-  translation: "Clientes"
-
-- id: clientsSubtitle
-  translation: "Nuestros clientes:"
-
-- id: recentPostsTitle
-  translation: "Blog"
-
-- id: recentPostsSubtitle
-  translation: "Últimas entradas del blog:"
-
 - id: carouselTitle1
-  translation: "Página 1"
-
-- id: carouselDescription1
-  translation: "<p>Aquí va texto<br>editable con html</p>"
-
-- id: carouselTitle2
-  translation: "Página 2"
-
-- id: carouselDescription2
-  translation: "Texto sin html"
+  translation: "Your AI tech agency_"
 
 - id: featureTitle1
-  translation: "Característica 1"
+  translation: "Full stack development"
 
 - id: featureDesc1
-  translation: "Descripción"
+  translation: "High performance backend solutions. Rich client apps for iOS, Android and Web"
 
 - id: featureTitle2
-  translation: "Característica 2"
+  translation: "AI & Machine learning"
 
 - id: featureDesc2
-  translation: "ES - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa orci. Sed quis metus eleifend, venenatis dolor sed, volutpat purus."
+  translation: "Computer Vision. Natural Language Processing. Automatic decision systems making our customers business processes highly scalable."
 
-- id: opinion1
-  translation: "ES - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac massa orci. Sed quis metus eleifend, venenatis dolor sed, volutpat purus."
+- id: featureTitle3
+  translation: "Big data & Analytics"
 
-- id: opinion2
-  translation: "ES - Vestibulum urna ligula, commodo consectetur lacinia eu, elementum a nisl. Pellentesque odio libero, tincidunt id turpis at, ullamcorper aliquet massa."
+- id: featureDesc3
+  translation: "Design and development of rich interactive dashboards to give our customers new insights from the large amounts of data that they are generating. Customization of HPC software to allow our customers to process petabytes of data"
 
-- id: opinion3
-  translation: "ES - In fermentum leo non imperdiet efficitur. Morbi eu risus ut lacus pellentesque porta non ac elit. Nullam ornare nibh quis ex tempus, vel posuere arcu fermentum."
+- id: tecnologiesTitle
+  translation: "Tecnologías"
 
+- id: recentPostsTitle
+  translation: "De nuestro blog"
 
-- id: position1
-  translation: "ES - Coneptum S.L."
+- id: clientsTitle
+  translation: "Nuestros clientes"
 
-- id: theme
-  translation: "tema"
+- id: september
+  translation: "septiembre" 
 
-- id: starting
-  translation: "empezando"

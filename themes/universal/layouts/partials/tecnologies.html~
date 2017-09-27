@@ -1,0 +1,36 @@
+{{ if isset .Site.Params "tecnologies" }}
+{{ if .Site.Params.tecnologies.enable }}
+{{ if gt (len .Site.Data.tecnologies) 0 }}
+<section class="bar background-gray no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ i18n "tecnologiesTitle" }}</h2>
+                </div>
+
+                <p class="lead">
+                  {{ i18n "tecnologiesSubtitle" }}
+                </p>
+
+                <ul class="tecnologies col-md-24">
+                    {{ range .Site.Data.tecnologies }}
+                    <li class="item" title="{{ .name }}">
+                        {{ if .url }}
+                          <a href="{{ .url }}" target="_blank">
+                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          </a>
+                        {{ else }}
+                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

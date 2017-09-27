@@ -3,158 +3,279 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/blog/2015/10/10/migrate-from-jekyll/</loc>
+    <loc>https://meritxellma.github.io/blog/2015/10/10/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/2015/10/02/linked-post/</loc>
+    <loc>https://meritxellma.github.io/blog/2015/10/02/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/2015/09/17/go-is-for-lovers/</loc>
+    <loc>https://meritxellma.github.io/blog/2015/09/17/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/2015/08/03/hugo-is-for-lovers/</loc>
+    <loc>https://meritxellma.github.io/blog/2015/08/03/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/2015/06/24/creating-a-new-theme/</loc>
+    <loc>https://meritxellma.github.io/blog/2015/06/24/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://meritxellma.github.io/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/blog/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://meritxellma.github.io/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/categories/"
+                href="https://meritxellma.github.io/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="https://meritxellma.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://meritxellma.github.io/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/contact/"
+                href="https://meritxellma.github.io/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/contact/"
+                href="https://meritxellma.github.io/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/contact.ca/</loc>
+    <loc>https://meritxellma.github.io/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/contact/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/tags/go/</loc>
+    <loc>https://meritxellma.github.io/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/tags/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/tags/go/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/tags/go/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/tags/golang/</loc>
+    <loc>https://meritxellma.github.io/tags/golang/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/hugo/</loc>
+    <loc>https://meritxellma.github.io/tags/hugo/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/tags/hugo/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/tags/ipsum/</loc>
+    <loc>https://meritxellma.github.io/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/lorem/</loc>
+    <loc>https://meritxellma.github.io/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/programming/</loc>
+    <loc>https://meritxellma.github.io/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/programming/</loc>
+    <loc>https://meritxellma.github.io/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/categories/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/categories/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/categories/programming/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/categories/pseudo/</loc>
+    <loc>https://meritxellma.github.io/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/categories/pseudo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/categories/pseudo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/categories/pseudo/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/categories/starting/</loc>
+    <loc>https://meritxellma.github.io/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://meritxellma.github.io/es/categories/starting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/categories/starting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://meritxellma.github.io/categories/starting/"
+                />
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://meritxellma.github.io/tags/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/tags/"
+                href="https://meritxellma.github.io/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="https://meritxellma.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://example.org/tags/theme/</loc>
+    <loc>https://meritxellma.github.io/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/"
+                href="https://meritxellma.github.io/es/tags/theme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="https://meritxellma.github.io/ca/tags/theme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="https://meritxellma.github.io/tags/theme/"
                 />
   </url>
   

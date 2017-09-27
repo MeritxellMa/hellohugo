@@ -5,11 +5,11 @@
 
         <div class="col-md-12">
             <div class="heading text-center">
-                <h2>{{ .Site.Params.recent_posts.title }}</h2>
+                <h2>{{ i18n "recentPostsTitle" }}</h2>
             </div>
 
             <p class="lead">
-              {{ .Site.Params.recent_posts.subtitle | markdownify }}
+              {{ i18n "recentPostsSubtitle" | markdownify }}
             </p>
 
             <!-- *** BLOG HOMEPAGE *** -->
@@ -36,13 +36,19 @@
                             </div>
                         </div>
 
-                        <div class="content">
+                         <div class="content">
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <p class="author-category">
                             {{ with .Params.author }}
                             {{ i18n "authorBy" }} <a href="#">{{ . }}</a>
                             {{ end }}
-                            {{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
+			    {{ if (eq .Site.Language.Lang "es") }}
+                            	{{ i18n "publishedOn" }} {{ .Date.Day }} de {{ index $.Site.Data.months.meses (printf "%d" .Date.Month) }} {{ .Date.Year }}
+			    {{ else if (eq .Site.Language.Lang "ca") }}
+                            	{{ i18n "publishedOn" }} {{ .Date.Day }} {{ index $.Site.Data.months.mesos (printf "%d" .Date.Month) }} {{ .Date.Year }}
+			    {{ else }}
+                            	{{ i18n "publishedOn" }} {{ .Date.Format .Site.Params.date_format }}
+			    {{ end }}
                             </p>
                             <p class="intro">{{ .Summary }}</p>
                             <p class="read-more">

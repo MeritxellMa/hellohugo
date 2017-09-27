@@ -1,5 +1,5 @@
 +++
-title = "Contactehg"
+title = "Contacta"
 id = "contact"
 +++
 
