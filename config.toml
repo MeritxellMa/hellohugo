@@ -9,7 +9,7 @@ DefaultContentLanguage = "en"
     defaultKeywords = []
     defaultDescription = ""
 
-    address = """<p>C/Sant Agustí, 5<br>Barcelona<br>080..<br><br></p>"""
+    address = """<p>C/Sant Agustí, 5<br>Barcelona<br>08012<br><br></p>"""
 
     email = "my.email@my.domain"
 
@@ -29,6 +29,9 @@ DefaultContentLanguage = "en"
     categories = true
     tags = true
     search = true
+
+[params.see_more]
+    enable = true
 
 [params.carousel]
     enable = true

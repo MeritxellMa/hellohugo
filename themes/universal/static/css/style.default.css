@@ -1229,12 +1229,13 @@ fieldset[disabled] .btn-template-primary.active {
 .customers {
   margin-bottom: 40px;
   text-align: center;
+  margin-right:40px;
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .customers {
     padding-left: 25%;
   }
-}
+}*/
 .customers .item {
   list-style-type: none;
   text-align: center;
@@ -1790,7 +1791,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: #555555;
 }
 .bar.background-white {
-  background: #fff;
+  background: #fff; 
 }
 .bar.background-image-fixed-1 {
   background: url('../img/header_Barcelona_small.jpg') center top no-repeat;
@@ -1798,10 +1799,30 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/header_Barcelona_small.jpg') center top no-repeat;
+  background: url('../img/header_Barcelona_small-original.jpg') center 15% no-repeat;
   background-attachment: fixed;
-  background-size: cover; 
-  min-height: 300px;
+  background-size: 100% auto; 
+  min-height: 400px;
+}@media (max-width: 991px) {
+  .bar.background-image-fixed-2 {
+    background-size: cover; 
+  }
+}@media (max-width: 1400px) {
+  .bar.background-image-fixed-2 {
+  	min-height: 350px;
+  }
+}
+.bar.background-image-fixed-2 h3{
+  text-align: left;
+  font-size: 35px;
+  letter-spacing: 0.08em;
+  margin-left: 100px;
+}@media (max-width: 1400px) {
+  .bar.background-image-fixed-2 h3{
+  	text-align: center;
+  	font-size: 35px;
+  	margin-left: 0px;
+  }
 }
 .bar.color-white h1,
 .bar.color-white h2,
@@ -1811,7 +1832,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar.color-white h6,
 .bar.color-white p {
   color: #fff;
-}
+} 
 .bar.padding-big {
   padding: 50px 0;
 }
