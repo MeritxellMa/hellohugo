@@ -138,7 +138,7 @@ DefaultContentLanguage = "en"
 
 	[[languages.es.menu.main]]
 	    url = "/es/"
-	    name = "Home"
+	    name = "Inicio"
 	    weight = 1
 	[[languages.es.menu.main]]
 	    url = "/es/blog/"
@@ -205,7 +205,7 @@ DefaultContentLanguage = "en"
 
 	[[languages.ca.menu.main]]
 	    url = "/ca/"
-	    name = "Home"
+	    name = "Inici"
 	    weight = 1
 	[[languages.ca.menu.main]]
 	    url = "/ca/blog/"
