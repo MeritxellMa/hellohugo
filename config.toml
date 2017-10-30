@@ -1,5 +1,5 @@
 baseURL = "https://meritxellma.github.io/"
-theme = "universal"    
+theme = "coneptum"    
 DefaultContentLanguage = "en"
 
 [params]
