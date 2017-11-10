@@ -259,7 +259,12 @@ ul.list-style-none {
   line-height: 20px;
   font-size: 12px;
   text-align: center;
-  vertical-align: bottom;
+  padding-top: 3px;
+}
+@media (max-width: 510px) {
+  #top .social a {
+    padding-top: 12px;
+  }
 }
 #top .social a:hover {
   color: #fff;

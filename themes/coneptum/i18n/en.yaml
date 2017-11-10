@@ -5,7 +5,7 @@
   translation: "Based on template by"
 
 - id: topbar
-  translation: "<p>Contact us on (+34) 699 148 286 or <a href='mailto:info@coneptum.com?Subject=Hello%20coneptum' target='_top'>info@coneptum.com</a></p>"
+  translation: "<p>Contact us on <br>(+34) 699 148 286 or <a href='mailto:info@coneptum.com?Subject=Hello%20coneptum' target='_top'>info@coneptum.com</a></p>"
 
 - id: portedBy
   translation: "Ported to Hugo by"
