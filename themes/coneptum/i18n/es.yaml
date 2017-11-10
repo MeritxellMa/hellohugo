@@ -2,7 +2,10 @@
   translation: "Inicio"
 
 - id: templateBy
-  translation: "Plantilla creada por"
+  translation: "Basada en la plantilla creada por"
+
+- id: topbar
+  translation: "<p>Contacta con nosotros en (+34) 699 148 286 o <a href='mailto:info@coneptum.com?Subject=Hello%20coneptum' target='_top'>info@coneptum.com</a></p>"
 
 - id: portedBy
   translation: "Adaptada a Hugo por"

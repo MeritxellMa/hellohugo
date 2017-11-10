@@ -1180,6 +1180,9 @@ fieldset[disabled] .btn-template-primary.active {
   .home-carousel {
     text-align: center !important;
   }
+  .home-carousel h1{
+    padding:25px;
+  }
 }
 
 .home-carousel h1,
@@ -1228,14 +1231,9 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .customers {
   margin-bottom: 40px;
+  margin-right: 40px;
   text-align: center;
-  margin-right:40px;
 }
-/*@media (min-width: 1200px) {
-  .customers {
-    padding-left: 25%;
-  }
-}*/
 .customers .item {
   list-style-type: none;
   text-align: center;
@@ -1290,6 +1288,7 @@ fieldset[disabled] .btn-template-primary.active {
   transition: all 0.2s ease-out;
   opacity:0.6;
   filter: alpha(opacity=60);
+  max-height:100px;
 }
 .tecnologies .item img:hover {
   max-width: auto;
@@ -1834,7 +1833,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  background: url('../img/header_Barcelona_small-original.jpg') center 20% no-repeat;
+  background: url('../img/header_Barcelona_small-original.jpg') center center no-repeat;
   background-attachment: fixed;
   background-size: 100% auto; 
   min-height: 300px;
