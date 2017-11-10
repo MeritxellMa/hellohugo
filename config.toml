@@ -11,7 +11,7 @@ DefaultContentLanguage = "en"
 
     address = """<p>C/Sant Agustí, 5<br>Barcelona<br>08012<br><br></p>"""
 
-    email = "my.email@my.domain"
+    email = "info@coneptum.com"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -121,7 +121,7 @@ DefaultContentLanguage = "en"
 	[[languages.en.menu.topbar]]
 	    weight = 4
 	    name = "Email"
-	    url = "mailto:your@email.com"
+	    url = "mailto:info@coneptum.com"
 	    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
     [languages.es]
@@ -189,7 +189,7 @@ DefaultContentLanguage = "en"
 	[[languages.es.menu.topbar]]
 	    weight = 4
 	    name = "Email"
-	    url = "mailto:your@email.com"
+	    url = "mailto:info@coneptum.com"
 	    pre = "<i class='fa fa-2x fa-envelope'></i>"
     [languages.ca]
 	title = "Coneptum S.L."
@@ -256,7 +256,7 @@ DefaultContentLanguage = "en"
 	[[languages.ca.menu.topbar]]
 	    weight = 4
 	    name = "Email"
-	    url = "mailto:your@email.com"
+	    url = "mailto:info@coneptum.com"
 	    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 
