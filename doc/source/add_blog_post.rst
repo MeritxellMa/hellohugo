@@ -8,6 +8,5 @@ Add blog post
 .. literalinclude:: ../../content/blog/en/linked-post.en.md
    :lines: 1-8
 
-3. Save the file in :file:`content/blog/codeLang/`. This codeLang is a folder label for user organization but not needed for hugo.
+3. Save the file in :file:`content/blog/codeLang/` with filename :file:`name.codeLang.md`. Dispite codeLang in filename, the codeLang folder is not needed for hugo although it improves file organization. 
 
-4. Rename your file as :file:`filename.codeLang.md`

@@ -9,4 +9,5 @@ WebBlog Coneptum
 .. toctree::
    :maxdepth: 2
 
+   run_project
    add_blog_post
